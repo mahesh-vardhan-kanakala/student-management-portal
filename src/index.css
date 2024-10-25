@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light background for the whole page */
+}
+
+h1, h2 {
+  color: #333; /* Dark text color for headers */
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #1976d2;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 60px;
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.sidebar i {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #1976d2;
+  cursor: pointer;
+}
+
+/* Main Content Styles */
+.main-content {
+  margin-left: 60px;
+  padding: 20px;
+}
+
+/* Table Container Styles */
+.table-container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #1976d2;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Pagination Styles */
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #155a8a;
+}
+
+/* Input and Button Styles */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.actions .btn,
+.submit-button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.actions .btn:hover,
+.submit-button:hover {
+  background-color: #155a8a;
+}
+
+/* Registration Container Styles */
+.registration-container {
+  margin: 20px auto; /* Centered with margins on top and bottom */
+  padding: 20px;
+  max-width: 500px; /* Maximum width for the form */
+  background-color: white; /* White background for the form */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Header Styles in Registration */
+.registration-container h2 {
+  text-align: center; /* Center align the header */
+  color: #1976d2; /* Primary color for the header */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+/* Form Styles */
+.registration-form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column layout for form inputs */
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red; /* Red color for error messages */
+  margin-top: 10px; /* Space above error messages */
+}
+
+/* Details Card Styles */
+.details-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.details-card p {
+  margin: 5px 0;
+}
+
+/* Miscellaneous Styles */
+.actions {
+  margin-top: 20px;
+}
+
+.actions .btn {
+  margin-right: 10px; /* Space between buttons */
+}
